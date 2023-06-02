@@ -1,6 +1,8 @@
 
 const headerContact = $(".header-contact")
 const headerMenu = $(".container-header-menu")
+const itemMenu = $(".dropdown")
+
 
 
 window.addEventListener("scroll", (event) => {
