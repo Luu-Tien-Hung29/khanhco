@@ -102,6 +102,15 @@ a {
   top: 0;
   right: 5px;
 }
+.container-header-menu.scroll {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  background-color: rgba(255, 255, 255, 0.5);
+  box-shadow: 0 3px 5px 0 rgb(0 0 0 / 10%);
+}
 .header-menu {
   display: flex;
   width: 75%;
@@ -166,15 +175,12 @@ a {
 }
 .body {
   width: 100%;
+  margin-bottom: 200px;
 }
 .slider {
   width: 85%;
   margin: auto;
 }
-/* .carousel-item {
-  width: 20%;
-  display: flex;
-} */
 .section-calibration {
   width: 85%;
   margin: auto;
@@ -260,4 +266,17 @@ a {
 .counter-item-number {
   font-size: 60px;
   font-weight: bold;
+}
+.content-customer {
+  display: flex;
+}
+.slick-slide {
+  margin: 15px 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.content-customer > div > img {
+  object-fit: contain;
+  width: 100%;
 }

@@ -18,7 +18,10 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
     integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
     crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="./styles.css" />
+    <script src="https://code.jquery.com/jquery-3.2.1.js" type="text/javascript"></script>
+  <link rel="stylesheet" href="./css/slick.css" />
+  <link rel="stylesheet" href="./css/slick-theme.css" />
+  <link rel="stylesheet" href="./css/styles.css" />
 </head>
 
 <body>
@@ -121,10 +124,14 @@
       <!-- slider -->
       <div id="carouselExampleIndicators" class="carousel slider slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+            aria-label="Slide 4"></button>
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active">
@@ -140,11 +147,13 @@
             <img src="./assets/img/kimlong-4.jpg" class="d-block w-100" alt="..." />
           </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Previous</span>
         </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next">
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
         </button>
@@ -237,42 +246,54 @@
               tại các trường đại học quốc gia, được đào tạo thêm từ các trung tâm đào tạo phát triển chuyên môn như Viện
               Đo lường Việt Nam, Quatest 3, Trung tâm Đào tạo sắc ký, vv và kinh nghiệm thực tế sâu rộng trong thử
               nghiệm tại chỗ và hiệu chuẩn cho các công ty hoặc nhà sản xuất ở Việt Nam và các nước Đông Nam Á.</p>
-              <div class="intro-count my-4">
-                <div class="row counter-list">
-                  <div class="col-4">
-                    <div >
-                      <div class="counter-item">
-                        <div class="counter-item-number" data-counter="4">4+</div>
-                        <h5>LAB</h5>
-                      </div>
+            <div class="intro-count my-4">
+              <div class="row counter-list">
+                <div class="col-4">
+                  <div>
+                    <div class="counter-item">
+                      <div class="counter-item-number" data-counter="4">4+</div>
+                      <h5>LAB</h5>
                     </div>
                   </div>
-                  <div class="col-4">
-                    <div >
-                      <div class="counter-item">
-                        <div class="counter-item-number" data-counter="62">62+</div>
-                        <h5>Nhân viên</h5>
-                      </div>
+                </div>
+                <div class="col-4">
+                  <div>
+                    <div class="counter-item">
+                      <div class="counter-item-number" data-counter="62">62+</div>
+                      <h5>Nhân viên</h5>
                     </div>
                   </div>
-                  <div class="col-4">
-                    <div >
-                      <div class="counter-item">
-                        <div class="counter-item-number" data-counter="120">120+</div>
-                        <h5>Chứng chỉ</h5>
-                      </div>
+                </div>
+                <div class="col-4">
+                  <div>
+                    <div class="counter-item">
+                      <div class="counter-item-number" data-counter="120">120+</div>
+                      <h5>Chứng chỉ</h5>
                     </div>
                   </div>
                 </div>
               </div>
+            </div>
           </div>
-         
+
         </div>
       </section>
 
       <!-- đối tác -->
       <section class="section-calibration">
         <div class="header-section color-web">Đối tác của chúng tôi</div>
+        <div class="content-customer lazy ">
+          <img data-lazy="./assets/img/customer/bv-fv.jpg" alt="" />
+          <img data-lazy="./assets/img/customer/bv-hoanmy.png" alt="" />
+          <img data-lazy="./assets/img/customer/bv-xuyena.png" alt="" />
+          <img data-lazy="./assets/img/customer/euvipharm.jpg" alt="" />
+          <img data-lazy="./assets/img/customer/ge.png" alt="" />
+          <img data-lazy="./assets/img/customer/kumho.png" alt="" />
+          <img data-lazy="./assets/img/customer/nestle.jpg" alt="" />
+          <img data-lazy="./assets/img/customer/roht.png" alt="" />
+          <img data-lazy="./assets/img/customer/samsung.png" alt="" />
+          <img data-lazy="./assets/img/customer/stada.jpg" alt="" />
+        </div>
       </section>
 
     </div>
@@ -289,6 +310,9 @@
       integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
       crossorigin="anonymous"
     ></script> -->
+  <script src="./js/slick.js" type="text/javascript"></script>
+  <script src="./js/slideCustom.js" type="text/javascript"></script>
+  <script src="./js/main.js" type="text/javascript"></script>
 </body>
 
 </html>
